@@ -7,14 +7,14 @@
 					<ThemePopover />
 					<UiButton
 						external
-						to="https://git.tritapp.net/frontend/nuxt-panel"
+						to="https://github.com/MohsenDastaran/Vue-Shadcn-Boilerplate"
 						target="_blank"
 						variant="ghost"
 						size="icon-sm"
-						title="View on gitlab"
+						title="View on Github"
 					>
 						<span class="sr-only">View on github</span>
-						<Icon name="lucide:gitlab" class="size-4" />
+						<Icon name="lucide:github" class="size-4" />
 					</UiButton>
 
 					<UiDropdownMenu>
