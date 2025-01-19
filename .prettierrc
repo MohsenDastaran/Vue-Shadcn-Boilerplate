@@ -1,0 +1,17 @@
+{
+	"arrowParens": "always",
+	"endOfLine": "lf",
+	"plugins": ["@ianvs/prettier-plugin-sort-imports", "prettier-plugin-tailwindcss"],
+	"printWidth": 100,
+	"semi": true,
+	"singleQuote": false,
+	"trailingComma": "es5",
+	"useTabs": true,
+	"vueIndentScriptAndStyle": true,
+	"tailwindFunctions": ["tv"],
+	"importOrder": ["<BUILTIN_MODULES>", "<THIRD_PARTY_MODULES>", "<TYPES>", "", "^[.]"],
+	"bracketSpacing": true,
+	"jsxBracketSameLine": false,
+	"proseWrap": "preserve",
+	"embeddedLanguageFormatting": "auto"
+}
