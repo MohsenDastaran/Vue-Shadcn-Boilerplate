@@ -3,6 +3,7 @@
 - All the components from [UI Thing](https://ui-thing.behonbaker.com/getting-started/introduction).
   - So this may impact performance. I'm not sure. I would recommend that you delete the components that you do not need.
 - All the components from [Inspire UI](https://inspira-ui.com/).
+  - Just copy component code into components => Inspire folder, and if there is any cn function import, remove it.
 - Dark Mode.
 - Theme Costomizer.
 - i18n.
@@ -14,13 +15,10 @@
   - This is not needed, I just wanted another toast library to play with. Feel free to remove it if the built in toast works for you.
 - [V-Wave](https://github.com/justintaddei/v-wave).
   - It just adds a ripple effect any component that you want. It's pretty cool. You can remove it if you don't need it.
-- All the components from [Inspire UI](https://inspira-ui.com/).
-  - Just copy component code into components => Inspire folder, and if there is any cn function import, remove it
 
 ---
 
 # Demo
-
 ### The starter is deployed on Netlify [here](https://vue-shadcn-boilerplate.netlify.app).
 
 ---
