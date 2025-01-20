@@ -15,7 +15,7 @@ export default defineNuxtConfig({
 		editorSupport: true,
 		cssPath: ["~/assets/css/tailwind.css", { injectPosition: "first" }],
 	},
-	colorMode: { classSuffix: "", fallback: "light", preference: "light" },
+	colorMode: { classSuffix: "", fallback: "dark", preference: "dark" },
 	css: [
 		"@/assets/css/style.css",
 		"@/assets/css/theme.css",
@@ -68,11 +68,12 @@ export default defineNuxtConfig({
 	i18n: {
 		locales: [
 			{ code: "en", iso: "en-US", dir: "ltr" },
+			{ code: "es", iso: "es", dir: "ltr" },
 			{ code: "fa", iso: "fa-IR", dir: "rtl" },
-			// { code: "ar", iso: "ar-SA", dir: "rtl" },
+			{ code: "ar", iso: "ar-SA", dir: "rtl" },
 		],
 		defaultLocale: "en",
-		fallbackLocale: "fa",
+		fallbackLocale: "en",
 		translationDir: "app/locales",
 		meta: true,
 	},

@@ -19,7 +19,7 @@
 					{{ $t("Title") }}
 				</div>
 				<div class="py-4 text-base font-extralight dark:text-neutral-200 md:text-4xl">
-					And this, is chemical burn.
+					{{ $t("subTitle") }}
 				</div>
 				<InspireInteractiveButton />
 			</div>
@@ -29,7 +29,7 @@
 			<UiGradientDivider class="container my-7" />
 		</UiContainer>
 		<div class="container mx-auto p-8">
-			<h1 class="mb-8 text-3xl font-bold">Direction Aware Hover Card Examples</h1>
+			<h1 class="mb-8 text-3xl font-bold">{{ $t("inspireExamples") }}:</h1>
 
 			<div class="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
 				<!-- Basic usage -->
@@ -65,17 +65,21 @@
 		</div>
 		<div class="flex h-[40rem] flex-col items-center justify-center px-4">
 			<h2 class="mb-10 text-center text-xl text-black dark:text-white sm:mb-20 sm:text-5xl">
-				Ask Anything Silly
+				{{ $t("AskAnythingSilly") }}
 			</h2>
 			<InspireVanishingInput v-model="text" :placeholders="placeholders" />
 		</div>
-		<div class="mb-60">
+		<UiGradientDivider class="container my-7" />
+
+		<UiContainer class="mb-60 mt-20">
+			<h1 class="mb-8 text-3xl font-bold">{{ $t("UIThingExamples") }}:</h1>
+
 			<UiContextMenu>
 				<UiContextMenuTrigger
 					as="div"
 					class="mx-auto flex h-[150px] w-[300px] items-center justify-center rounded-md border border-dashed text-sm"
 				>
-					Right click to see basic context menu
+					{{ $t("RightClickText") }}
 				</UiContextMenuTrigger>
 				<UiContextMenuContent loop class="w-64">
 					<UiContextMenuItem title="Back" inset shortcut="⌘[" />
@@ -126,7 +130,7 @@
 					</UiContextMenuRadioGroup>
 				</UiContextMenuContent>
 			</UiContextMenu>
-		</div>
+		</UiContainer>
 	</div>
 </template>
 

@@ -50,7 +50,8 @@
 	const modes = [
 		{ icon: "lucide:languages", title: "English", value: "en" },
 		{ icon: "lucide:languages", title: "فارسی", value: "fa" },
-		// { icon: "lucide:languages", title: "العربية", value: "ar" },
+		{ icon: "lucide:languages", title: "العربية", value: "ar" },
+		{ icon: "lucide:languages", title: "Español", value: "es" },
 	];
 
 	// i18n config
