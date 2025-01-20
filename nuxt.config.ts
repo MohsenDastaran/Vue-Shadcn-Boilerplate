@@ -69,6 +69,7 @@ export default defineNuxtConfig({
 		locales: [
 			{ code: "en", iso: "en-US", dir: "ltr" },
 			{ code: "es", iso: "es", dir: "ltr" },
+			{ code: "zh", iso: "zh-cn", dir: "ltr" },
 			{ code: "fa", iso: "fa-IR", dir: "rtl" },
 			{ code: "ar", iso: "ar-SA", dir: "rtl" },
 		],
