@@ -43,12 +43,12 @@ pnpm dev
 
 ---
 
+
 ## Website Using This Boilerplate
 
 This boilerplate is powering the following website:
 
-- [Website Name]([https://example.com](http://estimatewebsitecost.com))
-
+- [Estimate Website Cost](https://estimatewebsitecost.com)
 
 ---
 
