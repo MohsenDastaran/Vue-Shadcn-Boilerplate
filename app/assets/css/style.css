@@ -11,3 +11,67 @@
 html {
 	font-family: Vazirmatn;
 }
+
+/* Loader (Used in API) */
+.loading {
+	position: relative;
+	pointer-events: none; /* Prevent interaction */
+}
+
+.loading::before {
+	content: "";
+	position: absolute;
+	inset: 0;
+	/* background: rgba(255, 255, 255, 0.5); Optional: Light overlay effect */
+	backdrop-filter: blur(3px); /* Blur effect only on the background */
+	z-index: 1;
+}
+
+.loader {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 55px;
+	aspect-ratio: 1;
+	--g1: conic-gradient(from 90deg at 3px 3px, #0000 90deg, #fff 0);
+	--g2: conic-gradient(from -90deg at 22px 22px, #0000 90deg, #fff 0);
+	background: var(--g1), var(--g1), var(--g1), var(--g2), var(--g2), var(--g2);
+	background-size: 25px 25px;
+	background-repeat: no-repeat;
+	animation: l7 1.5s infinite;
+	z-index: 2; /* Ensure loader stays above blurred background */
+}
+
+@keyframes l7 {
+	0% {
+		background-position:
+			0 0,
+			0 100%,
+			100% 100%;
+	}
+	25% {
+		background-position:
+			100% 0,
+			0 100%,
+			100% 100%;
+	}
+	50% {
+		background-position:
+			100% 0,
+			0 0,
+			100% 100%;
+	}
+	75% {
+		background-position:
+			100% 0,
+			0 0,
+			0 100%;
+	}
+	100% {
+		background-position:
+			100% 100%,
+			0 0,
+			0 100%;
+	}
+}
