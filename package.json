@@ -1,6 +1,6 @@
 {
-	"name": "trita-boilerplate",
-	"version": "1.2.0",
+	"name": "vue-shadcn-boilerplate",
+	"version": "1.4.0",
 	"private": false,
 	"packageManager": "pnpm@9.15.0",
 	"scripts": {
