@@ -9,7 +9,7 @@
 - i18n.
 - State Manage(Pinia).
 - Tailwind.
-- Lucide Icon Pack.
+- Icon Collections(Lucide &...).
 - Zod.
 - [Notivue](https://notivuedocs.netlify.app/installation/nuxt.html) was also added to the project.
   - This is not needed, I just wanted another toast library to play with. Feel free to remove it if the built in toast works for you.
